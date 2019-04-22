@@ -11,7 +11,7 @@
     - [Configuration of Huawei-related Applications](#configuration-of-huawei-related-applications)
     - [Network Configuration](#network-configuration)
     - [Usage Behaviors](#usage-behaviors)
-    - [Follow-up](#follow-up)
+  - [Timeline](#timeline)
 
 ## Description
 
@@ -177,6 +177,6 @@ Cellular network from one of top three mobile operators in Thailand. Always conn
 
 Mostly like every normal users do. Brought back to Songkran Festival to try one of the best camera phones in the world. Listening to Blackpink's new album. Reading articles. Tweeting.
 
-### Follow-up
+## Timeline
 
 - **April 22, 2019**: Received a message from Huawei Thailand for supporting. They will try to coordinate with Huawei HQ.
