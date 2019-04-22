@@ -1,6 +1,7 @@
 # huawei-block-list
 
 - [huawei-block-list](#huawei-block-list)
+  - [NOTICE! False Positive on beian.gov.cn](#notice-false-positive-on-beiangovcn)
   - [Description](#description)
   - [Setup Blocking](#setup-blocking)
     - [Setup Blocking with Algo VPN](#setup-blocking-with-algo-vpn)
@@ -13,9 +14,12 @@
     - [Usage Behaviors](#usage-behaviors)
   - [Timeline](#timeline)
 
-## Description
+
+## NOTICE! False Positive on beian.gov.cn
 
 **The requests to `beian.gov.cn` is false positive. Please [see](analysis.md)**
+
+## Description
 
 Domain names on `master.txt` are captured DNS requests from Huawei P30 Pro purchased in Thailand. All domains located in China and/or has an IP address within China's ASN. The device hasn't configured with Huawei services, including Huawei ID or any Hi services.
 
