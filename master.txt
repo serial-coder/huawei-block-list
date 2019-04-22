@@ -4,10 +4,4 @@
 #   https://github.com/trailofbits/algo/blob/master/roles/dns_adblocking/templates/adblock.sh.j2
 #
 127.0.0.1	hicloud.com
-127.0.0.1	kunlunsl.com
 127.0.0.1	dbankcdn.com
-127.0.0.1	ucloud.com.cn
-127.0.0.1	nuomi.com
-127.0.0.1	gmw.cn
-127.0.0.1	china.com.cn
-127.0.0.1	alikunlun.com

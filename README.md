@@ -17,7 +17,7 @@
 
 ## Explanation for An Existing of `beian.gov.cn`
 
-**The requests to `beian.gov.cn` are happened during testing, originate from `baidu.com`. Please [see this analysis report for more info](analysis.md)**
+**The requests to `beian.gov.cn` were happened during testing, originate from `baidu.com`. Please [see this analysis report for more info](analysis.md)**
 
 ## Description
 
