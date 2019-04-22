@@ -1,17 +1,17 @@
 # huawei-block-list
 
-    - [huawei-block-list](#huawei-block-list)
-      - [Description](#description)
-      - [Setup Blocking](#setup-blocking)
-        - [Setup Blocking with Algo VPN](#setup-blocking-with-algo-vpn)
-        - [Setup Blocking with OpenDNS](#setup-blocking-with-opendns)
-      - [Details](#details)
-        - [Version of ROM](#version-of-rom)
-        - [Pre-installed Appllications](#pre-installed-appllications)
-        - [Configuration of Huawei-related Applications](#configuration-of-huawei-related-applications)
-        - [Network Configuration](#network-configuration)
-        - [Usage Behaviors](#usage-behaviors)
-      - [Timeline](#timeline)
+- [huawei-block-list](#huawei-block-list)
+  - [Description](#description)
+  - [Setup Blocking](#setup-blocking)
+    - [Setup Blocking with Algo VPN](#setup-blocking-with-algo-vpn)
+    - [Setup Blocking with OpenDNS](#setup-blocking-with-opendns)
+  - [Details](#details)
+    - [Version of ROM](#version-of-rom)
+    - [Pre-installed Appllications](#pre-installed-appllications)
+    - [Configuration of Huawei-related Applications](#configuration-of-huawei-related-applications)
+    - [Network Configuration](#network-configuration)
+    - [Usage Behaviors](#usage-behaviors)
+  - [Timeline](#timeline)
 
 ## Description
 
