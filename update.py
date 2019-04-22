@@ -62,10 +62,19 @@ def log_parsing(path):
 
 if __name__ == '__main__':
     if sys.argv[1] and os.path.exists(sys.argv[1]):
-        lines = log_parsing(sys.argv[1])
-        domains = line_analyzing(lines)
+        current = []
+
+        with open('whitelist.txt', 'r') as output:
+            whitelist = [line.rstrip() for line in output]
+
+        with open('master.txt', 'r') as output:
+            for line in output:
+                if line.startswith('127.0.0.1'):
+                    current.append(line.split()[1].rstrip('\n'))
 
         with open('master.txt', 'w') as output:
+            lines = log_parsing(sys.argv[1])
+            domains = line_analyzing(lines)
             output.write('''#
 # This file is created to be used with Algo VPN adblock
 # See adblock.sh for more info:
@@ -73,9 +82,15 @@ if __name__ == '__main__':
 #\n''')
 
             for domain in domains:
-                if locate_the_mainland(domain):
+                if locate_the_mainland(domain) and domain not in current:
+                    current.append(domain)
                     print("Positive: {}".format(domain))
-                    output.write("127.0.0.1\t{}\n".format(domain))
                 else:
                     print("Negative: {}".format(domain))
+
+            for domain in whitelist:
+                current.remove(domain)
+
+            for domain in current:
+                output.write("127.0.0.1\t{}\n".format(domain))
 
