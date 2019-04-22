@@ -1,7 +1,7 @@
 # huawei-block-list
 
 - [huawei-block-list](#huawei-block-list)
-  - [NOTICE! False Positive on beian.gov.cn](#notice-false-positive-on-beiangovcn)
+  - [Explanation for An Existing of `beian.gov.cn`](#explanation-for-an-existing-of-beiangovcn)
   - [Description](#description)
   - [Setup Blocking](#setup-blocking)
     - [Setup Blocking with Algo VPN](#setup-blocking-with-algo-vpn)
@@ -15,9 +15,9 @@
   - [Timeline](#timeline)
 
 
-## NOTICE! False Positive on beian.gov.cn
+## Explanation for An Existing of `beian.gov.cn`
 
-**The requests to `beian.gov.cn` is false positive. Please [see](analysis.md)**
+**The requests to `beian.gov.cn` are happened during testing, originate from `baidu.com`. Please [see this analysis report for more info](analysis.md)**
 
 ## Description
 
