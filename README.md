@@ -2,7 +2,7 @@
 
 <p align="center"><img src ="img/dnsmasq.jpg" /></p>
 
-Domain names on `master.txt` are captured DNS requests from Huawei P30 Pro, located in China and/or has an IP address within China's ASN. The device hasn't configured with Huawei services, including Huawei ID or any Hi services.
+Domain names on `master.txt` are captured DNS requests from Huawei P30 Pro purchased in Thailand. All domains located in China and/or has an IP address within China's ASN. The device hasn't configured with Huawei services, including Huawei ID or any Hi services.
 
 Please note that:
 - The block list may includes test domain names, `baidu.com` and `qq.com`.
