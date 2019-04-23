@@ -17,6 +17,8 @@
 
 ## Explanation for An Existing of `beian.gov.cn`
 
+Due to my responsibility for this hobby research to prevent distributing misleading or misunderstanding information, and suggestions made by other researchers to discover more findings or correct me if I did something wrong. **As an intention for this research I told everyone in Thai, we couldn't and shouldn't make a conclusion in this moment until we can see everything clearly.**
+
 **The requests to `beian.gov.cn` were happened during testing, originate from `baidu.com`. Please [see this analysis report for more info](analysis.md)**
 
 ## Timeline
