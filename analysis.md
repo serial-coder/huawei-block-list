@@ -15,7 +15,7 @@ You can see that before the query to `beian.gov.cn` was made, there are a bunch 
 - `ufosdk.baidu.com`
 - `wappass.baidu.com`
 - `wappass.n.shifen.com` and
-- `www.beain.gov.cn`
+- `www.beian.gov.cn`
 
 Another requests to `beian.gov.cn`:
 
