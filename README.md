@@ -2,6 +2,7 @@
 
 - [huawei-block-list](#huawei-block-list)
   - [Explanation for An Existing of `beian.gov.cn`](#explanation-for-an-existing-of-beiangovcn)
+  - [Timeline](#timeline)
   - [Description](#description)
   - [Setup Blocking](#setup-blocking)
     - [Setup Blocking with Algo VPN](#setup-blocking-with-algo-vpn)
@@ -12,12 +13,20 @@
     - [Configuration of Huawei-related Applications](#configuration-of-huawei-related-applications)
     - [Network Configuration](#network-configuration)
     - [Usage Behaviors](#usage-behaviors)
-  - [Timeline](#timeline)
 
 
 ## Explanation for An Existing of `beian.gov.cn`
 
 **The requests to `beian.gov.cn` were happened during testing, originate from `baidu.com`. Please [see this analysis report for more info](analysis.md)**
+
+## Timeline
+
+- **April 22, 2019**: Received a message from Huawei Thailand for supporting. They will try to coordinate with Huawei HQ.
+- **April 23, 2019**: 
+  - Sent more information about an analysis of `www.beian.gov.cn` to Huawei Thailand
+  - Updated code and lists to support whitelist domain names and exclude false positive domain names
+  - Updated posts to 2600 Thailand, /r/netsec on the thread and other media
+  - Huawei Thailand ackownledged new update on false positive
 
 ## Description
 
@@ -57,8 +66,8 @@ If you don't have your own server or don't want to mess with configuration stuff
 - Android 9
 - EMUI 9.1.0 (Build number 9.1.0.124)
 - Vendor country info
-- Vendor: HW
-- Country: spcseas
+  - Vendor: HW
+  - Country: spcseas
 
 ### Pre-installed Appllications
 
@@ -180,8 +189,3 @@ Cellular network from one of top three mobile operators in Thailand. Always conn
 ### Usage Behaviors
 
 Mostly like every normal users do. Brought back to Songkran Festival to try one of the best camera phones in the world. Listening to Blackpink's new album. Reading articles. Tweeting.
-
-## Timeline
-
-- **April 22, 2019**: Received a message from Huawei Thailand for supporting. They will try to coordinate with Huawei HQ.
-- **April 23, 2019**: Sent more information about an analysis `www.beian.gov.cn` to Huawei Thailand
